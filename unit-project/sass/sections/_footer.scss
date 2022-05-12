@@ -1,0 +1,143 @@
+.footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #1A1A1A;
+  
+  /* Tablet */
+  @media (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* Mobile XS */
+  @media (max-width: 599px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  &__row {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+      margin-bottom: 40px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    margin-right: 46px;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__nav-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:not(:last-child) {
+      margin-right: 47px;
+
+      /* Mobile XS */
+      @media (max-width: 599px) {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+
+    &:hover {
+      color: #15D784;
+    }
+  }
+
+  &__social {
+    display: flex;
+  }
+
+  &__social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 50%;
+    transition: 0.5s;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+
+      /* Mobile XS */
+      @media (max-width: 599px) {
+        margin-right: 20px;
+      }
+    }
+
+    &:hover {
+      background: #00C470;
+    }
+  }
+
+  &__copyright {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    
+    span {
+      font-weight: 700;
+    }
+
+    br {
+      display: none;
+
+      /* Mobile XS */
+      @media (max-width: 599px) {
+        display: block;
+      }
+    }
+  
+    p + p {
+      margin-top: 15px;
+    }
+  }
+
+}

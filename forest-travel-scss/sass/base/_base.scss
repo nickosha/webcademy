@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%; /* sticky footer */
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%; /* sticky footer */
+  display: flex; /* sticky footer */
+  flex-direction: column; /* sticky footer */
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  color: #31405B
+}
+
+body > * {
+  flex-shrink: 0; /* sticky footer */
+}
+
+.bgcolor {
+ background-color: #F2F8F6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  display: block;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.none {
+  display: none;
+}
+
+.main-header {
+  font-weight: 700;
+  font-size: 54px;
+  color: #31405b;
+}

@@ -1,0 +1,77 @@
+/* inner tours page */
+
+.main-inner-tours-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.cards-row:last-child {
+  margin-bottom: 0;
+}
+
+.card {
+  width: 570px;
+}
+
+.card-link-wrapper {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.card-link-wrapper:hover {
+  opacity: 0.9;
+}
+
+
+.card.big {
+  width: 670px;
+}
+
+.card.small {
+  width: 470px;
+}
+
+.cards-row-second-column > * + * {
+  margin-top: 30px;
+}
+
+.card-title-wrapper {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #a6a6a6;
+}
+
+.card-title-wrapper.sand-color {
+  background-color: #c1b19b;
+}
+
+.card-title-wrapper.blue-color {
+  background-color: #66b0be;
+}
+
+.card-title-wrapper.brown-color {
+  background-color: #876f56;
+}
+
+.card-title-wrapper.green-color {
+  background-color: #27695e;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: #ffffff;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

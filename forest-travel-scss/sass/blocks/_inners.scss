@@ -1,0 +1,17 @@
+/* inner */
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-image: url("./../img/header/header-small-bg.jpg");
+  background-color: #265847;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.main-inner {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}

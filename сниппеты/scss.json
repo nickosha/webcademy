@@ -1,0 +1,32 @@
+{
+	"Tablet media": {
+		"prefix": "t",
+		"body": [
+			"/* Tablet */",
+			"@media (max-width: ${1:1199}px) {",
+			"	${2}",
+			"}"
+		],
+		"description":  "Tablet media"
+	},
+	"Mobile media": {
+		"prefix": "m",
+		"body": [
+			"/* Mobile */",
+			"@media (max-width: ${1:899}px) {",
+			"	${2}",
+			"}"
+		],
+		"description": "Mobile media"
+	},
+	"XS Mobile media": {
+		"prefix": "xs",
+		"body": [
+			"/* Mobile XS */",
+			"@media (max-width: ${1:599}px) {",
+			"	${2}",
+			"}"
+		],
+		"description": "XS Mobile media"
+	}
+}

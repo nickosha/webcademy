@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: blue;
+
+  height: 100vh;
+}
+
+@import "./blocks/nav-icon";

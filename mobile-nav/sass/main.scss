@@ -1,0 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@import "./blocks/header";
+@import "./blocks/section";
+
+// Blocks
+
+@import "./blocks/nav-icon"

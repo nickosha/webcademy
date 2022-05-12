@@ -1,0 +1,359 @@
+/* Tablet */
+@media (max-width: 1199px) {
+  .container {
+    width: 900px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header {
+    height: 591px;
+  }
+  .header-top {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header-content {
+    width: 900px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header-title {
+    margin-top: -8px;
+    font-size: 52px;
+  }
+  .header-nav-list {
+    display: none;
+  }
+  .header-nav-menu-icon {
+    display: block;
+    width: 38px;
+    height: 38px;
+  }
+  .header-scroll {
+    font-size: 0;
+  }
+  
+  /* Main */
+  .main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .main-row {
+    margin-bottom: 80px;
+  }
+  .main-header {
+    font-size: 50px;
+    line-height: 1;
+  }
+  .main-content-text {
+    margin-bottom: 20px;
+  }
+  .main-content-text p{
+    font-size: 18px;
+  }
+  .main-content {
+    /* margin-right: 30px; */
+    width: 420px;
+  }
+  .main-row-img {
+    width: 420px;
+  }
+  .main-row-img img {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .footer-widget-services {
+    display: none;
+  }
+  .footer .logo {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .footer-widget-title {
+    margin-bottom: 20px;
+  }
+  .footer-widget-info {
+    width: 195px;
+  }
+  .footer-copyright {
+    width: 195px;
+  }
+  .footer-copyright p {
+    font-size: 14px;
+  }
+
+  /* inner tours page */
+  .main-inner {
+    padding-bottom: 60px;
+  }
+  .main-inner-tours-title {
+    margin-bottom: 40px;
+  }
+  .main-inner-tours-title .main-header {
+    line-height: 64.7px;
+  }
+  .card {
+    width: 420px;
+  }
+  .card.big {
+    width: 495px;
+  }
+  .card.small {
+    width: 345px;
+  }
+  /* .card img {
+    width: 100%;
+  } */
+  .card-title-wrapper {
+    height: 60px;
+    padding-left: 20px;
+  }
+  .card-title {
+    font-size: 24px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 899px) {
+  .container {
+    width: 600px;
+  }
+  .header-top, .header-content {
+    width: 100%;
+  }
+  .header-top {
+    padding-right: 31px;
+  }
+  .header-title {
+    margin-top: -35px;
+    font-size: 42px;
+    line-height: 1;
+  }
+  .header-content P {
+    font-size: 20px;
+  }
+  
+  /* Main */
+  .main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .main-row {
+    flex-direction: row-reverse;
+    margin-bottom: 60px;
+  }
+  .main-header {
+    font-size: 42px;
+  }
+  .main-content {
+    margin-right: 0;
+    width: auto;
+  }
+  .main-content-text p {
+    font-size: 16px;
+  }
+  br {
+    display: block;
+  }
+  .button {
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+  }
+  .main-row-img {
+    margin-right: 30px;
+    width: 170px;
+    height: 393px;
+    flex-shrink: 0;
+  }
+  .main-row-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footer-row {
+    flex-direction: column-reverse;
+  }
+  .footer-widgets-wrapper {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-top: 0;
+  }
+  .footer-widget {
+    width: calc(50% - 15px);
+  }
+  .footer-copyright {
+    width: auto;
+  }
+
+  /* inner tours page */
+  .header-inner {
+    height: 80px;
+  }
+  .header-inner .logo {
+    font-size: 30px;
+  }
+  .main-inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .main-inner-tours-title {
+    margin-bottom: 29px;
+  }
+  /*
+  .main-inner-tours-title {
+    margin-bottom: 40px;
+  }
+  .main-inner-tours-title .main-header {
+    line-height: 64.7px;
+  } */
+  .cards-row {
+    flex-direction: column;
+  }
+  .cards-row > * + * {
+    margin-top: 30px;
+  }
+  .card, .card.big, .card.small {
+    width: 570px;
+  }
+  .card-title-wrapper {
+    padding-left: 25px;
+  }
+  .cards-row-second-column {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Mobile XS*/
+@media (max-width: 599px) {
+  .container {
+    width: 320px;
+  }
+  .header-top, .header-content {
+    width: 100%;
+  }
+  .header-top {
+    padding-right: 22px;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .header-title {
+    margin-top: -23px;
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+  .header-content P {
+    font-size: 18px;
+  }
+
+  /* Main */
+  .main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .main .container {
+    width: 100%;
+  }
+  .main-row {
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+  }
+  .main-row:last-child {
+    flex-direction: column-reverse;
+  }
+  .main-header {
+    font-size: 34px;
+  }
+  .main-content-text p {
+    line-height: 1.625;
+  }
+  .main-row-img {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 150px;
+  }
+
+    /* Footer */
+  .footer-row {
+    text-align: center;
+  }
+  .footer-widgets-wrapper {
+    flex-direction: column;
+  }
+  .footer-widget-services {
+    display: block;
+  }
+  .footer-widgets-wrapper {
+    margin-bottom: 40px;
+  }
+  .footer-widget {
+    width: 100%;
+  }
+  .footer-widget + .footer-widget {
+    margin-top: 40px;
+  }
+  .footer-widget:not(:last-child) {
+    margin-right: 0;
+  }
+  .footer-widget-title {
+    font-size: 20px;
+  }
+  .footer-widget-lists li {
+    font-size: 16px;
+  }
+  .footer-widget-lists li+li {
+    margin-top: 7px;
+  }
+  .footer-widget p {
+    font-size: 16px;
+  }
+  .footer-widget p+p {
+    margin-top: 13px;
+  }
+  .footer .logo {
+    margin-bottom: 10px;
+  }
+  .footer-widget-title {
+    margin-bottom: 10px;
+  }
+
+  .main-inner-tours-title .main-header {
+    font-size: 28px;
+    line-height: 1;
+  }
+  .cards-row {
+    margin-bottom: 20px;
+  }
+
+  .cards-row-second-column > * + *,
+  .cards-row > * + * {
+    margin-top: 20px;
+  }
+  .card-title-wrapper {
+    padding-left: 15px;
+    height: 50px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card, .card.big, .card.small {
+    width: 290px;
+  }
+}

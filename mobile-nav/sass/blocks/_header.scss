@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  justify-content: space-between;
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    width: 600px;
+  }
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav a + a {
+  margin-left: 20px;
+}

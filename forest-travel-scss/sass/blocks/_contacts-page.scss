@@ -1,0 +1,67 @@
+/* contacts page */
+
+.main-header-content {
+  margin-bottom: 40px;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-info {
+  width: 470px;
+}
+
+.contact-form {
+  width: 630px;
+}
+
+.contact-block + .contact-block {
+  margin-top: 40px;
+}
+
+.contact-block-title {
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #31405B;
+}
+
+.contact-list li {
+  margin-bottom: 22px;
+  font-size: 20px;
+}
+
+.contact-list a {
+  color: #138ece;
+  text-decoration: none;
+}
+
+.contact-list-icon {
+  position: relative;
+  padding-left: 39px;
+}
+
+.contact-list-icon::before {
+  content: "";
+  position: absolute;
+  margin-top: 2px;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.contact-list-icon.phone::before {
+  background-image: url('./../img/icons/phone.svg');
+}
+
+.contact-list-icon.mail::before {
+  background-image: url('./../img/icons/mail.svg');
+}
+
+.contact-list-icon.address::before {
+  background-image: url('./../img/icons/map-pin.svg');
+}
